@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+html {
+    width: 100%;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    padding-bottom: 50px;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    /*background: #24252A;*/
+}
+
+body::after {
+    content: "";
+    background: url('../img/background2.jpg');
+    opacity: 0.95;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #464853;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #edf0f1;
+    padding: 10px 0px 20px 0px;
+}
+
+.none {
+    display: none;
+    visibility: hidden;
+}
+
+.left-nav {
+    width: 20%;
+}
+
+.logo {
+    width: 60%;
+    height:auto;
+}
+
+.test-name {
+    font-size: 50px;
+    padding: 50px 100px;
+    background:rgba(0,0,0,0.4);
+    margin: 0;
+}
+
+.slogan {
+    background:rgba(0,0,0,0.4);
+    padding: 100px;
+}
+
+.slogan-main {
+    font-size: 50px;
+    margin: 10px 0px 10px 0px;
+}
+
+.slogan-secondary {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+    padding:0;
+}
+
+.test {
+    background:rgba(0,0,0,0.7);
+    padding: 10px 30px 20px 30px;
+}
+
+.test-main {
+    width: 70%;
+    display: inline-block;
+    font-size: 30px;
+    color: #0073FF;
+    margin: 0;
+}
+
+.test-count {
+    width: 30%;
+    display: inline-block;
+    font-size: 15px;
+    margin: 0;
+}
+
+.test-secondary {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    margin: 0 0 20px 0;
+    padding:0;
+}
+
+nav {
+    width: 50%;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088a9
+}
+
+.right-nav {
+    width: 40%;
+    text-align: right;
+}
+
+.admin-lower-bar {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.active {
+    color: rgba(0, 136, 169, 1);
+}
+
+.error {
+    color: red;
+    font-size: 10px;
+    padding-left: 15px;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #0073FF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+}
+
+button:hover {
+    background-color: #005CCC;
+}
+
+.wrapper-main {
+    padding-top: 20px;    
+}
+
+section {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 50%;
+}
+
+.transparent{
+    background:rgba(0,0,0,0.7);
+}
+
+select {
+    border-radius: 50px;
+    padding: 12px 20px;
+    margin-left: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #000000;
+
+}
+
+input[type=submit] {
+    width: auto;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0px 10px 0px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #0073FF;
+}
+
+.btn-submit {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+
+input[type=submit]:hover {
+    background-color: #005CCC;
+}
+
+input:disabled {
+    background: #C7C8CB;
+    color: #6B6C75;
+}
+
+input[type=file] {
+    color: white;
+    border: none;
+}
+
+label {
+    padding-left: 15px;
+}
+
+.form-item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.profile-item {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.profile-label {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #B5B5BA;
+}
+
+.user-parameter {
+    margin: 0;
+    font-size: 2vw;
+    text-align: center;
+    margin: 10px;
+}
+
+.edit-btn {
+    padding: 10px 15px;
+    font-size: 2vw;
+}
+
+.message-bar {
+    width: 100%;
+    background-color: yellow;
+    color: black;
+    font-size: 15px;
+    padding: 5px 0px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.container {
+    margin: 40px 10%;
+    text-align: center;
+    align-content: center;
+}
+
+
+table {
+    background-color: white;
+    table-layout: fixed;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+table, td, th {
+    border-collapse:collapse;
+}
+
+th {
+    color: white;
+    background-color: #0073FF;
+    padding: 10px 10px;
+    text-align: left;
+}
+td {
+    color: black;
+    font-weight: 100;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.row1 {
+    background-color: #d8e9ff;
+}
+
+.table-outter {
+    overflow-x: auto;   
+}
+
+.left-content {
+    text-align: left;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.action {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 10px;
+}
+
+.action:hover {
+    color: #000000;
+}
+
+.delete {
+    background-color: red;
+    margin-top: 5px;
+    padding: 10px 17px;
+}
+
+.delete:hover {
+    background-color: darkred;
+}
+
+.cancel {
+    background-color: gray;
+    margin-top: 5px;
+    padding: 10px 17px;
+}
+
+.cancel:hover {
+    background-color: darkgray;
+}
+
+div.answer {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+input[type=checkbox].answer {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+label.answer {
+    width: 10%;
+    padding-left: 15px;
+    text-indent: -15px;
+    color: #0073FF;
+    vertical-align: top;
+}
+
+textarea.answer {
+    width: 80%;
+    background: transparent;
+    font-size: 18px;
+    color: white;
+    border: none;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.textarea-edit {
+    display: block;
+    margin: 10px 15px;
+    width: 90%;
+}
+
+.question-image {
+    width: 90%;
+    height:auto;
+}
