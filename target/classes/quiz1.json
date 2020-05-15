@@ -1,0 +1,22 @@
+[
+  {
+    "question": "How much is your outfit?",
+    "answers": ["10$", "20$", "30$", "40$"],
+    "correctAnswers": [1,2]
+  },
+  {
+    "question": "How much is 2+2?",
+    "answers": ["4", "3", "2", "5"],
+    "correctAnswers": [1]
+  },
+  {
+    "question": "How much is 4-1?",
+    "answers": ["That's 3 quick maths", "1", "8", "110"],
+    "correctAnswers": [1]
+  },
+  {
+    "question": "What number comes between 2 and 4?",
+    "answers": ["25", "36", "3", "I don't know"],
+    "correctAnswers": [1,2]
+  }
+]

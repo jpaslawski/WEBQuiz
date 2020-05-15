@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Quiz1",
+    "info": "",
+    "fileName": "quiz1.json",
+    "isPublic": true
+  },
+  {
+    "name": "Quiz2",
+    "info": "",
+    "fileName": "quiz2.json",
+    "isPublic": false
+  }
+]

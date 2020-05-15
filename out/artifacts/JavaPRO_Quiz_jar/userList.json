@@ -1,0 +1,4 @@
+[{"firstName":"Jerzy","lastName":"Paslawski","email":"jpas@gmail.com","password":"admin","role":"admin"},
+{"firstName":"Janusz","lastName":"Polak","email":"jpolak@gmail.com","password":"test","role":"student"},
+{"firstName":"test","lastName":"test","email":"test","password":"test","role":"student"},
+{"firstName":"admin","lastName":"admin","email":"admin","password":"admin","role":"admin"}]
